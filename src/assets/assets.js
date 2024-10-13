@@ -13,6 +13,15 @@ import men1 from './men1.jpeg'
 import exchange from './exchange.jpeg'
 import support from './support.jpeg'
 import policy from './policy.jpeg'
+import cross from './cross.jpeg'
+import star from './star.jpeg'
+import star_dull from './star_dull.jpeg'
+import bin_icon from './bin_icon.jpeg'
+import stripe_logo from './stripe_logo.jpeg'
+import razorpay_logo from './razorpay_logo.jpeg'
+import about_img from './about_img.jpeg'
+import contact_img from './contact_img.jpeg'
+
 export const assets = {
   kid,
   kid1,
@@ -27,13 +36,21 @@ export const assets = {
   men1,
   exchange,
   policy,
-  support
+  support,
+  cross,
+  star,
+  star_dull,
+  bin_icon,
+  stripe_logo,
+  razorpay_logo,
+  about_img,
+  contact_img
 }
 
 
 export const products = [
     {
-        id:"aaaaa",
+        _id:"aaaaa",
         name: "Women Round Neck Cotton Top",
         description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
         Price:100,
@@ -45,7 +62,7 @@ export const products = [
         bestseller: true
     },
     {
-      id:"aaaab",
+      _id:"aaaab",
       name: "Women Round Neck Cotton Top",
       description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
       Price:200,
@@ -56,18 +73,29 @@ export const products = [
       date: 1716634345448,
       bestseller: true
   },{
-    id:"aaaab",
+    _id:"aaaac",
     name: "Women Round Neck Cotton Top",
     description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
     Price:200,
-    image:[kid],
+    image:[kid1],
     category:"women",
     subCategory: "Topwear",
     sizes:["s","M","L"],
     date: 1716634345448,
     bestseller: true
 },{
-  id:"aaaab",
+  _id:"aaaad",
+  name: "Women Round Neck Cotton Top",
+  description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
+  Price:200,
+  image:[kid3],
+  category:"women",
+  subCategory: "Topwear",
+  sizes:["s","M","L"],
+  date: 1716634345448,
+  bestseller: true
+},{
+  _id:"aaaae",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -78,18 +106,7 @@ export const products = [
   date: 1716634345448,
   bestseller: true
 },{
-  id:"aaaab",
-  name: "Women Round Neck Cotton Top",
-  description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
-  Price:200,
-  image:[kid],
-  category:"women",
-  subCategory: "Topwear",
-  sizes:["s","M","L"],
-  date: 1716634345448,
-  bestseller: true
-},{
-  id:"aaaab",
+  _id:"aaaaf",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -101,7 +118,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaag",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -113,7 +130,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaah",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -125,7 +142,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaai",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -137,7 +154,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaaj",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -149,7 +166,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaak",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -161,7 +178,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaal",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -173,7 +190,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaam",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -185,7 +202,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaan",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -197,7 +214,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaao",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -209,7 +226,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaap",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -221,7 +238,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaaq",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -233,7 +250,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaar",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -245,7 +262,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaas",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -257,7 +274,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaat",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
@@ -269,7 +286,7 @@ export const products = [
   bestseller: true
 },
 {
-  id:"aaaab",
+  _id:"aaaau",
   name: "Women Round Neck Cotton Top",
   description: "A lightweight, usually Knitted,pullover shirt,close-fitting and",
   Price:200,
